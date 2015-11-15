@@ -26,11 +26,7 @@ class HMM:
         self.initial_probabilities = numpy.array(initial_probabilities)
         self.transitional_probs = numpy.array(transitional_probs)
         self.emission_probs = numpy.array(emission_probs)
-
-    @staticmethod
-    def get_zero_matrix(M, N):
-        return [[0 for j in range(N)] for i in range(M)]
-    
+ 
     def get_most_probable_state_path(self, sequence):
         """
         Implements the Viterbi algorithm to get most probable state sequence path.
