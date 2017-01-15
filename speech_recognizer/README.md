@@ -5,8 +5,6 @@ waveforms. Here, for simplicity, the observations only take on binary values, bu
 the same.
 
 Consider a discrete HMM with n = 26 hidden states St∈ {1, 2, . . . , 26} and binary observations Ot∈ {0, 1}.
-Download the ASCII data files from the course web site for this assignment. These files contain parameter
-values for the initial state distribution πi = P(S1 = i), the transition matrix aij = P(St+1 = j|St = i), and
-the emission matrix bik = P(Ot =k|St =i), as well as a long bit sequence of T = 75000 observations.
+The ASCII data  files contain parameter values for the initial state distribution πi = P(S1 = i), the transition matrix aij = P(St+1 = j|St = i), and the emission matrix bik = P(Ot =k|St =i), as well as a long bit sequence of T = 75000 observations.
 Use the Viterbi algorithm to compute the most probable sequence of hidden states conditioned on this
-particular sequence of observations. T
+particular sequence of observations.
